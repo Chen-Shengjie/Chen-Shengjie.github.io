@@ -21,8 +21,8 @@ nav_order: 2
 <h2>Work in Progress</h2>
 <ul>
   <li>
-    <strong>Harnessing Large Language Models for Narrative Evidence</strong> (with Marc Dordal i Carreras)<br>
-    <em>Evaluating the application of multimodal models to extract non-verbal data and systemic risk indicators.</em>
+    <strong>[Your Next Great Idea]</strong><br>
+    <em>[A one-sentence description of the methodology or goal.]</em>
   </li>
   <li>
     <strong>[Your Next Great Idea]</strong><br>
