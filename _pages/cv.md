@@ -7,5 +7,5 @@ nav_order: 5
 ---
 
 <div class="post" style="margin-top: 3rem;">
-  <p>My CV is here: <a href="{{ 'cv.pdf' | relative_url }}" target="_blank">CV.pdf</a></p>
+  <p>My CV is here: <a href="{{ 'CV.pdf' | relative_url }}" target="_blank">CV.pdf</a></p>
 </div>
