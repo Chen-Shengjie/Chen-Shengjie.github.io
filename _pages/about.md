@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
@@ -36,5 +36,10 @@ I received my M.Sc. in Economics from HKUST in 2026, and my bachelor's degree in
 
 ### Research Interest
 My primary research interests lie at the intersection of macroeconomics, monetary policy, and the application of advanced Natural Language Processing (NLP) techniques, especially Large Language Models (LLMs).
+
+### Contact
+You can reach me via email:
+* schengs [at] connect [dot] ust [dot] hk
+* chensj1125 [at] gmail [dot] com
 
 
