@@ -181,7 +181,7 @@ ul {
 
 /* Forces the picture into a perfect circle */
 .profile img {
-  border-radius: 40% !important;
+  border-radius: 50% !important;
   object-fit: cover !important;
   aspect-ratio: 1 / 1 !important;
 }
@@ -203,19 +203,24 @@ ul {
 /* --- ADD NUMBERS TO PUBLICATIONS --- */
 .publications {
   counter-reset: paper-counter;
-  padding-left: 2rem; /* Makes room for the numbers on the left */
+  padding-left: 0; /* Aligns the list perfectly with your section headers */
 }
+
 .publications .row {
-  position: relative;
   counter-increment: paper-counter;
+  position: relative;
+  padding-left: 1.5rem; /* Creates a small indent for the text */
+  margin-bottom: 1.5rem; /* Adds nice breathing room between different papers */
 }
+
 .publications .row::before {
-  content: counter(paper-counter) "."; /* Formats as 1. 2. 3. */
+  content: counter(paper-counter) ".";
   position: absolute;
-  left: -2rem;
+  left: 0; /* Pins the number exactly to the far left edge */
   top: 0;
   font-weight: 600;
   color: #2c3e50;
+  font-size: 1.05rem;
 }
 
 /* --- STOP TEXT FROM WRAPPING UNDER PICTURE --- */
@@ -229,7 +234,7 @@ ul {
 
   .post article .profile {
     float: none !important;      /* Kills the old wrapping behavior */
-    width: 320px;                /* Locks the picture column to a fixed width */
+    width: 220px;                /* Locks the picture column to a fixed width */
     margin-left: 3rem !important; 
     flex-shrink: 0;              /* Prevents the picture from being squished */
   }
