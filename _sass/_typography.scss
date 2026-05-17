@@ -203,24 +203,31 @@ ul {
 /* --- ADD NUMBERS TO PUBLICATIONS --- */
 .publications {
   counter-reset: paper-counter;
-  padding-left: 0; /* Aligns the list perfectly with your section headers */
+  padding-left: 0; 
 }
 
+/* Tightens the gap between the number and the paper details */
 .publications .row {
   counter-increment: paper-counter;
   position: relative;
-  padding-left: 1.5rem; /* Creates a small indent for the text */
-  margin-bottom: 1.5rem; /* Adds nice breathing room between different papers */
+  padding-left: 1.2rem; /* Reduced from 1.5rem for a tighter, inline look */
+  margin-bottom: 1.5rem; 
 }
 
 .publications .row::before {
   content: counter(paper-counter) ".";
   position: absolute;
-  left: 0; /* Pins the number exactly to the far left edge */
+  left: 0; 
   top: 0;
   font-weight: 600;
   color: #2c3e50;
   font-size: 1.05rem;
+}
+
+/* Forces the "Work in Progress" ordered list to perfectly match the alignment of the papers above it */
+.publications ol {
+  padding-left: 1.2rem; 
+  margin-bottom: 1.5rem;
 }
 
 /* --- STOP TEXT FROM WRAPPING UNDER PICTURE --- */
