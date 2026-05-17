@@ -201,32 +201,45 @@ ul {
 }
 
 /* --- ADD NUMBERS TO PUBLICATIONS --- */
-.publications {
+
+/* 1. Resets the number back to 1 under every new section header */
+.publications h3 {
   counter-reset: paper-counter;
-  padding-left: 0; 
 }
 
-/* Tightens the gap between the number and the paper details */
+/* 2. Kills Bootstrap's hidden padding so your text tightly hugs the numbers */
+.publications .col-sm-12 {
+  padding-left: 0 !important;
+}
+
+/* 3. Removes Jekyll's invisible default list margins */
+.publications ol.bibliography {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* 4. Sets the exact indent for the paper details */
 .publications .row {
   counter-increment: paper-counter;
   position: relative;
-  padding-left: 1.2rem; /* Reduced from 1.5rem for a tighter, inline look */
-  margin-bottom: 1.5rem; 
+  padding-left: 1.5rem; /* Creates the tight, inline gap */
+  margin-bottom: 1.5rem;
 }
 
+/* 5. Pins the custom number to the exact left edge */
 .publications .row::before {
   content: counter(paper-counter) ".";
   position: absolute;
-  left: 0; 
+  left: 0;
   top: 0;
   font-weight: 600;
   color: #2c3e50;
   font-size: 1.05rem;
 }
 
-/* Forces the "Work in Progress" ordered list to perfectly match the alignment of the papers above it */
-.publications ol {
-  padding-left: 1.2rem; 
+/* 6. Forces your "Work in Progress" list to flawlessly match the papers above it */
+.publications ol:not(.bibliography) {
+  padding-left: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
