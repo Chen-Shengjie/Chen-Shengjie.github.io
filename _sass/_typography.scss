@@ -194,6 +194,12 @@ ul {
   margin-top: 10px;
 }
 
+/* Forces the name inside the profile box to be strictly bold */
+.profile p strong {
+  font-weight: 600 !important;
+  color: #2c3e50 !important; /* Optional: matches your section headers */
+}
+
 /* --- ADD NUMBERS TO PUBLICATIONS --- */
 .publications {
   counter-reset: paper-counter;
