@@ -150,7 +150,13 @@ p {
   font-size: 1.05rem;     
   line-height: 1.8;       
   margin-bottom: 1.5rem;  
-  text-align: justify;    /* THIS MAKES YOUR PARAGRAPHS PERFECTLY JUSTIFIED */
+  text-align: justify;    
+}
+
+/* Adjust the massive homepage title size */
+.post-title {
+  font-size: 2rem !important; 
+  font-weight: 600;
 }
 
 /* Section Headers */
@@ -168,9 +174,40 @@ ul {
   margin-bottom: 1.5rem;
 }
 
-/* Forces the text under the picture to use Lora instead of typewriter font */
-.profile .address p {
+/* --- FIX PROFILE PICTURE, SPACING & TEXT --- */
+.profile {
+  margin-left: 3rem !important; /* Adds breathing room between text and picture */
+}
+
+/* Forces the picture into a perfect circle */
+.profile img {
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  aspect-ratio: 1 / 1 !important;
+}
+
+/* Forces Lora font, sizes it elegantly, and centers it under the picture */
+.profile p {
   font-family: 'Lora', serif !important;
-  font-size: 0.95rem;     /* Slightly smaller than main text for a neat look */
-  text-align: left;       /* Keeps this text flush left so it doesn't stretch weirdly */
+  font-size: 0.95rem !important;    
+  text-align: left !important; 
+  margin-top: 10px;
+}
+
+/* --- ADD NUMBERS TO PUBLICATIONS --- */
+.publications {
+  counter-reset: paper-counter;
+  padding-left: 2rem; /* Makes room for the numbers on the left */
+}
+.publications .row {
+  position: relative;
+  counter-increment: paper-counter;
+}
+.publications .row::before {
+  content: counter(paper-counter) "."; /* Formats as 1. 2. 3. */
+  position: absolute;
+  left: -2rem;
+  top: 0;
+  font-weight: 600;
+  color: #2c3e50;
 }
