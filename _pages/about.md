@@ -9,7 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p><strong>Shengjie Chen (陈圣杰)</strong><br>
+    <p>[Will update the picture later!]
+    <strong>Shengjie Chen (陈圣杰)</strong><br>
     Ph.D. Student in Economics<br>
     HKUST</p>
 
