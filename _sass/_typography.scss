@@ -140,16 +140,17 @@ blockquote {
 
 /* --- OVERRIDE: CUSTOM SPACING & FONTS --- */
 
-/* Changes the global font to Lora (if you added it to _config.yml) */
+/* Changes the global font to Lora */
 body {
   font-family: 'Lora', serif !important;
 }
 
-/* Body Text Spacing */
+/* Body Text Spacing & Justification */
 p {
   font-size: 1.05rem;     
   line-height: 1.8;       
   margin-bottom: 1.5rem;  
+  text-align: justify;    /* THIS MAKES YOUR PARAGRAPHS PERFECTLY JUSTIFIED */
 }
 
 /* Section Headers */
@@ -165,4 +166,11 @@ h3 {
 ul {
   line-height: 1.7;       
   margin-bottom: 1.5rem;
+}
+
+/* Forces the text under the picture to use Lora instead of typewriter font */
+.profile .address p {
+  font-family: 'Lora', serif !important;
+  font-size: 0.95rem;     /* Slightly smaller than main text for a neat look */
+  text-align: left;       /* Keeps this text flush left so it doesn't stretch weirdly */
 }
