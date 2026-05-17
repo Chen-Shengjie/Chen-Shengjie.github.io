@@ -134,3 +134,35 @@ blockquote {
     }
   }
 }
+
+
+
+
+/* --- OVERRIDE: CUSTOM SPACING & FONTS --- */
+
+/* Changes the global font to Lora (if you added it to _config.yml) */
+body {
+  font-family: 'Lora', serif !important;
+}
+
+/* Body Text Spacing */
+p {
+  font-size: 1.05rem;     
+  line-height: 1.8;       
+  margin-bottom: 1.5rem;  
+}
+
+/* Section Headers */
+h3 {
+  font-weight: 600;       
+  font-size: 1.5rem;      
+  margin-top: 2.5rem;     
+  margin-bottom: 1rem;    
+  color: #2c3e50;         
+}
+
+/* Bullet Point Lists */
+ul {
+  line-height: 1.7;       
+  margin-bottom: 1.5rem;
+}
