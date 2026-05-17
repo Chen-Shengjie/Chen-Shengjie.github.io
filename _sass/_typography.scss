@@ -235,7 +235,7 @@ ul {
   .post article .profile {
     float: none !important;      /* Kills the old wrapping behavior */
     width: 220px;                /* Locks the picture column to a fixed width */
-    margin-left: 3rem !important; 
+    margin-left: 5rem !important; 
     flex-shrink: 0;              /* Prevents the picture from being squished */
   }
 
