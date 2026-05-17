@@ -259,3 +259,25 @@ ul {
     flex-grow: 1;                /* Forces the text to fill the remaining left side */
   }
 }
+
+/* --- MOBILE LAYOUT FIXES --- */
+@media (max-width: 767px) {
+  /* 1. Remove the giant desktop margin and shrink the massive picture */
+  .post article .profile {
+    width: 220px !important;              /* Keeps the picture a reasonable size */
+    margin: 0 auto 2rem auto !important;  /* Centers it perfectly and adds space below */
+    float: none !important;
+    display: block !important;
+  }
+
+  /* 2. Center all the text (name, bio, contact) underneath the picture */
+  .profile p, .profile .address p {
+    text-align: center !important;
+    margin-left: 0 !important;
+  }
+
+  /* 3. Slightly reduce the massive spacing above section headers for smaller screens */
+  h3 {
+    margin-top: 2rem !important;
+  }
+}
