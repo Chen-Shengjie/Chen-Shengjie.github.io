@@ -18,8 +18,7 @@ nav_order: 2
     <h3>Work in Progress</h3>
     <ol>
       <li>
-        <strong>[Your Next Great Idea]</strong><br>
-        <em>[A one-sentence description of the methodology or goal.]</em>
+        <strong>[My Next Idea]</strong><br>
       </li>
     </ol>
 
