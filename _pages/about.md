@@ -7,11 +7,9 @@ subtitle:
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>I need time to select a good picture!</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -32,14 +30,14 @@ Welcome to my personal homepage!
 I am an incoming Ph.D. student in Economics at the Hong Kong University of Science and Technology (HKUST), beginning in Fall 2026.
 
 ### Education
-I received my M.Sc. in Economics from HKUST in 2026, and my bachelor's degree in Economics (Major: Finance) from the Southwestern University of Finance and Economics (SWUFE) in 2022.
+I received my M.Sc. in Economics from HKUST in 2026, and my bachelor's degree in Economics from the Southwestern University of Finance and Economics (SWUFE) in 2022.
 
 ### Research Interest
 My primary research interests lie at the intersection of macroeconomics, monetary policy, and the application of advanced Natural Language Processing (NLP) techniques, especially Large Language Models (LLMs).
 
 ### Contact
-You can reach me via email:
-* schengs [at] connect [dot] ust [dot] hk
-* chensj1125 [at] gmail [dot] com
+You can reach me via email:<br>
+schengs [at] connect [dot] ust [dot] hk<br>
+chensj1125 [at] gmail [dot] com
 
 
