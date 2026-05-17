@@ -202,33 +202,25 @@ ul {
 
 /* --- ADD NUMBERS TO PUBLICATIONS --- */
 
-/* 1. Resets the number back to 1 under every new section header */
-.publications h3 {
+/* --- THE BULLETPROOF NUMBERING SYSTEM --- */
+
+/* 1. Strip default indents and reset counters for all lists */
+.publications ol {
+  list-style: none !important;
+  padding-left: 0 !important;
   counter-reset: paper-counter;
 }
 
-/* 2. Kills Bootstrap's hidden padding so your text tightly hugs the numbers */
-.publications .col-sm-12 {
-  padding-left: 0 !important;
-}
-
-/* 3. Removes Jekyll's invisible default list margins */
-.publications ol.bibliography {
-  padding-left: 0;
-  list-style: none;
-}
-
-/* 4. Sets the exact indent for the paper details */
-.publications .row {
-  counter-increment: paper-counter;
+/* 2. Attach the number perfectly to the list item */
+.publications ol li {
   position: relative;
-  padding-left: 1.5rem; /* Creates the tight, inline gap */
+  padding-left: 1.5rem !important; /* Sets the exact, tight gap between number and text */
   margin-bottom: 1.5rem;
 }
 
-/* 5. Pins the custom number to the exact left edge */
-.publications .row::before {
+.publications ol li::before {
   content: counter(paper-counter) ".";
+  counter-increment: paper-counter;
   position: absolute;
   left: 0;
   top: 0;
@@ -237,11 +229,15 @@ ul {
   font-size: 1.05rem;
 }
 
-/* 6. Forces your "Work in Progress" list to flawlessly match the papers above it */
-.publications ol:not(.bibliography) {
-  padding-left: 1.5rem;
-  margin-bottom: 1.5rem;
+/* 3. Annihilate the invisible Bootstrap spacing that causes the wide gaps */
+.publications .row {
+  margin: 0 !important;
 }
+
+.publications .col-sm-12 {
+  padding: 0 !important;
+}
+
 
 /* --- STOP TEXT FROM WRAPPING UNDER PICTURE --- */
 @media (min-width: 768px) {
