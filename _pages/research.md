@@ -8,7 +8,7 @@ nav_order: 2
 
 <div class="post" style="margin-top: 3rem;">
   <div class="publications">
-    
+
     <h3>Publications</h3>
     {% bibliography -q @*[category=published]* %}
 
