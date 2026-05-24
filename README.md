@@ -6,18 +6,6 @@ https://chen-shengjie.github.io
 
 The site is built with Jekyll using the al-folio theme.
 
-## Local Development
-
-```bash
-docker compose up
-```
-
-The site runs locally at:
-
-```text
-http://localhost:8080
-```
-
 ## Main Content
 
 - `_pages/about.md` - homepage/about page
