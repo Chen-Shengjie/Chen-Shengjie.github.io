@@ -1,12 +1,10 @@
 ---
 layout: about
 title: About
-permalink: /
+permalink: /about/
+nav: true
+nav_order: 1
 subtitle:
-
-cover:
-  image: home-cover.jpg
-  caption: Clear Water Bay
 
 profile:
   align: right

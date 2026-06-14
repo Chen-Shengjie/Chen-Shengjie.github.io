@@ -101,10 +101,118 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.landing-page {
+  margin-top: -3rem;
+}
+
+.landing-cover {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #f7f9fc;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &::after {
+    position: absolute;
+    inset: 0;
+    content: "";
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.18));
+    pointer-events: none;
+  }
+
+  span {
+    position: absolute;
+    right: 1.25rem;
+    bottom: 1rem;
+    z-index: 1;
+    color: #fff;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+    text-transform: uppercase;
+  }
+}
+
+.home-intro {
+  max-width: 930px;
+  margin: 2.75rem auto 4rem;
+  padding: 0 15px;
+  text-align: center;
+
+  .home-kicker {
+    margin-bottom: 0.5rem;
+    color: var(--global-theme-color);
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    max-width: 44rem;
+    margin: 0 auto 1rem;
+    color: var(--global-text-color);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  p {
+    max-width: 46rem;
+    margin: 0 auto;
+    color: var(--global-text-color-light);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+}
+
+.home-entry-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-top: 1.6rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.35rem;
+    padding: 0.4rem 0.9rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    color: var(--global-text-color);
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  a:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
 @media (max-width: 767px) {
   .home-cover {
     min-height: 150px;
     margin-bottom: 2rem;
+  }
+
+  .home-intro {
+    margin-top: 2rem;
+
+    h1 {
+      font-size: 1.55rem;
+    }
   }
 }
 
