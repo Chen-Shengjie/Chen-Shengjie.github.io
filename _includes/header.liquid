@@ -1,27 +1,23 @@
 <header>
+  {% assign masthead_image = site.masthead.image | default: 'home-cover.jpg' %}
+  <section
+    class="site-masthead {% if page.permalink == '/' %}site-masthead-home{% else %}site-masthead-inner{% endif %}"
+    style="background-image: url('{{ masthead_image | prepend: 'assets/img/' | relative_url }}')"
+  >
+    <div class="site-masthead-overlay">
+      <div class="container">
+        <p class="site-masthead-name">Shengjie Chen (陈圣杰)</p>
+        <p class="site-masthead-title">Incoming Ph.D. Student in Economics at HKUST</p>
+      </div>
+    </div>
+    {% if site.masthead.caption %}
+      <span class="site-masthead-caption">{{ site.masthead.caption }}</span>
+    {% endif %}
+  </section>
+
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-                {{- site.first_name -}}
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% social_links %}</div>
-      {% endif %}
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"

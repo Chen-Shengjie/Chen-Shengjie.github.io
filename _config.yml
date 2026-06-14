@@ -53,7 +53,7 @@ external_services:
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
 footer_fixed: true
 search_enabled: false
 socials_in_search: true
@@ -62,6 +62,10 @@ bib_search: false
 
 # Dimensions
 max_width: 930px
+
+masthead:
+  image: home-cover.jpg
+  caption: HKUST
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org

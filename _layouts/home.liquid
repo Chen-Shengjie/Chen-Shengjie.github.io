@@ -2,15 +2,4 @@
 layout: default
 ---
 
-<div class="landing-page">
-  {% if page.cover and page.cover.image %}
-    <section class="landing-cover">
-      <img src="{{ page.cover.image | prepend: 'assets/img/' | relative_url }}" alt="{{ page.cover.caption | default: site.title }}">
-      {% if page.cover.caption %}
-        <span>{{ page.cover.caption }}</span>
-      {% endif %}
-    </section>
-  {% endif %}
-
-  {{ content }}
-</div>
+{{ content }}
