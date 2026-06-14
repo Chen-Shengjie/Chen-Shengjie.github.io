@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: shengjie-chen-profile.jpeg
+  image: shengjie-chen-headshot.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p><strong>Shengjie Chen (陈圣杰)</strong><br>
