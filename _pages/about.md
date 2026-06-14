@@ -40,3 +40,8 @@ I received my M.Sc. in Economics from HKUST in 2026, and my bachelor's degree in
 
 ### Research Interest
 My primary research interests lie at the intersection of macroeconomics, monetary economics, and the application of advanced Natural Language Processing (NLP) techniques, especially Large Language Models (LLMs).
+
+### Contact
+
+Please feel free to reach me by email:<br>
+schengs [at] connect [dot] ust [dot] hk
