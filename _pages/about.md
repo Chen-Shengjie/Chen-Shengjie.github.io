@@ -12,12 +12,13 @@ profile:
   image: shengjie-chen-headshot-circle.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p><strong>Shengjie Chen (陈圣杰)</strong><br>
-    Incoming Ph.D. Student in Economics<br>
-    HKUST</p>
-    <div class="profile-links">
-      <a href="mailto:schengs@connect.ust.hk"><i class="fa-solid fa-envelope"></i> Email</a>
-      <a href="https://github.com/chen-shengjie"><i class="fa-brands fa-github"></i> GitHub</a>
+    <div class="profile-summary">
+      <p class="profile-name"><strong>Shengjie Chen (陈圣杰)</strong></p>
+      <p class="profile-role">Incoming Ph.D. Student in Economics<br>HKUST</p>
+      <div class="profile-links">
+        <a href="mailto:schengs@connect.ust.hk"><i class="fa-solid fa-envelope"></i> Email</a>
+        <a href="https://github.com/chen-shengjie"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
     </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
