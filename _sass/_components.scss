@@ -125,7 +125,6 @@ ul.task-list input[type="checkbox"] {
   font-weight: 600;
   letter-spacing: 0.04em;
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
-  text-transform: uppercase;
 }
 
 #navbar {
@@ -226,6 +225,15 @@ ul.task-list input[type="checkbox"] {
     font-size: 1.05rem;
     line-height: 1.7;
     text-align: center;
+  }
+}
+
+.cv-download {
+  margin-top: 1.25rem;
+
+  p {
+    margin-bottom: 0.75rem;
+    text-align: left;
   }
 }
 

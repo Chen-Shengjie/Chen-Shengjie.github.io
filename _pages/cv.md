@@ -11,5 +11,8 @@ nav_order: 5
     <h1 class="post-title">Curriculum Vitae</h1>
   </header>
 
-  <p>My CV is here: <a href="{{ 'CV.pdf' | relative_url }}" target="_blank">CV.pdf</a></p>
+  <div class="cv-download">
+    <p>You can view or download my current CV here:</p>
+    <p><a href="{{ 'CV.pdf' | relative_url }}" target="_blank">CV.pdf</a></p>
+  </div>
 </div>
