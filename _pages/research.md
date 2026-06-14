@@ -7,6 +7,10 @@ nav_order: 2
 ---
 
 <div class="post" style="margin-top: 3rem;">
+  <header class="post-header">
+    <h1 class="post-title">Research</h1>
+  </header>
+
   <div class="publications">
 
     <h3>Publications</h3>
