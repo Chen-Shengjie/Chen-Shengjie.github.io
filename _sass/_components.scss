@@ -250,23 +250,43 @@ body.full-width-page [role="main"] {
 }
 
 .home-poem {
-  max-width: 760px;
-  margin: 3.5rem auto 5rem;
+  max-width: 620px;
+  margin: 3.25rem auto 5rem;
 }
 
-.home-poem p {
+.home-poem-block {
+  margin: 0;
+}
+
+.home-poem blockquote {
+  margin: 0;
+  padding: 0;
+  border-left: 0;
+}
+
+.home-poem blockquote p {
+  max-width: none;
+  margin: 0 0 0.85rem;
   color: var(--global-text-color);
   font-family: 'Lora', serif;
-  font-size: 1.25rem;
-  font-style: italic;
-  line-height: 1.85;
-}
-
-.home-poem p + p {
-  margin-top: 0.25rem;
-  color: var(--global-text-color-light);
   font-size: 1.05rem;
   font-style: normal;
+  line-height: 1.75;
+  text-align: left;
+}
+
+.home-poem figcaption {
+  margin-top: 1.15rem;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.home-poem cite {
+  color: var(--global-text-color);
+  font-family: 'Lora', serif;
+  font-style: italic;
 }
 
 .cv-page {
