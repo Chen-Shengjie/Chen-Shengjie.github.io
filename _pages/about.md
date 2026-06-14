@@ -18,6 +18,7 @@ profile:
       <div class="profile-links">
         <a href="mailto:schengs@connect.ust.hk"><i class="fa-solid fa-envelope"></i> Email</a>
         <a href="https://github.com/chen-shengjie"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://orcid.org/0009-0004-0729-5582"><i class="ai ai-orcid"></i> ORCID</a>
       </div>
     </div>
 
