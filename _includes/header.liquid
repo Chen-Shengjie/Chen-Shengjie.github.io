@@ -10,7 +10,7 @@
         <p class="site-masthead-title">Incoming Ph.D. Student in Economics at HKUST</p>
       </div>
     </div>
-    {% if site.masthead.caption %}
+    {% if page.permalink == '/' and site.masthead.caption %}
       <span class="site-masthead-caption">{{ site.masthead.caption }}</span>
     {% endif %}
   </section>

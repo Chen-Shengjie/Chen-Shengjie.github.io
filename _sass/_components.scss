@@ -130,7 +130,8 @@ ul.task-list input[type="checkbox"] {
 
 #navbar {
   background-color: rgba(255, 255, 255, 0.96);
-  border-bottom: 1px solid var(--global-divider-color);
+  border-top: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   margin-top: 0;
 }
 
@@ -140,6 +141,11 @@ ul.task-list input[type="checkbox"] {
 
 #navbar .navbar-nav {
   margin-left: 0 !important;
+}
+
+#navbar .navbar-nav .nav-link {
+  padding-right: 1.05rem;
+  padding-left: 1.05rem;
 }
 
 .home-cover {
@@ -227,9 +233,18 @@ body.full-width-page {
   padding-top: 0 !important;
 }
 
+html,
+body {
+  margin-top: 0 !important;
+}
+
 body.full-width-page header,
 body.full-width-page [role="main"] {
   margin-top: 0 !important;
+}
+
+progress#progress {
+  display: none !important;
 }
 
 @media (max-width: 767px) {
