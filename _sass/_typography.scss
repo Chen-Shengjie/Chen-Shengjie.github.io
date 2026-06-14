@@ -201,6 +201,34 @@ ul {
   color: #2c3e50 !important; /* Optional: matches your section headers */
 }
 
+.profile .profile-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-top: 1rem;
+  font-family: 'Lora', serif !important;
+  font-size: 0.9rem;
+}
+
+.profile .profile-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.profile .profile-links a:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.profile .profile-links i {
+  width: 1rem;
+  color: var(--global-text-color-light);
+  text-align: center;
+}
+
 /* --- ADD NUMBERS TO PUBLICATIONS --- */
 
 /* --- THE BULLETPROOF NUMBERING SYSTEM --- */

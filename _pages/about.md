@@ -12,6 +12,10 @@ profile:
     <p><strong>Shengjie Chen (陈圣杰)</strong><br>
     Incoming Ph.D. Student in Economics<br>
     HKUST</p>
+    <div class="profile-links">
+      <a href="mailto:schengs@connect.ust.hk"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="https://github.com/chen-shengjie"><i class="fa-brands fa-github"></i> GitHub</a>
+    </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -36,9 +40,3 @@ I received my M.Sc. in Economics from HKUST in 2026, and my bachelor's degree in
 
 ### Research Interest
 My primary research interests lie at the intersection of macroeconomics, monetary economics, and the application of advanced Natural Language Processing (NLP) techniques, especially Large Language Models (LLMs).
-
-### Contact
-
-You can reach me via email:<br>
-schengs [at] connect [dot] ust [dot] hk<br>
-chensj1125 [at] gmail [dot] com
