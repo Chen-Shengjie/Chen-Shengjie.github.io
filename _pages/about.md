@@ -4,6 +4,10 @@ title: About
 permalink: /
 subtitle:
 
+cover:
+  image: home-cover.jpg
+  caption: Clear Water Bay
+
 profile:
   align: right
   image: shengjie-chen-headshot-circle.jpg
