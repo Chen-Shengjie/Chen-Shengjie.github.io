@@ -65,7 +65,7 @@ max_width: 930px
 
 masthead:
   image: home-cover.jpg
-  caption: HKUST's Sea
+  caption: "HKUST's Sea"
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org

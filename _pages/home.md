@@ -6,10 +6,7 @@ nav: false
 full_width: true
 ---
 
-<section class="home-intro">
-  <p class="home-kicker">Research Question</p>
-  <h1>How do words shape economic expectations?</h1>
-  <p>
-    I study macroeconomic narratives, monetary economics, and how modern language models can help measure the way policy communication moves through the economy.
-  </p>
+<section class="home-intro home-poem">
+  <p>Between sea and sky, words become signals.</p>
+  <p>From policy to expectations, I listen for the economy's voice.</p>
 </section>
