@@ -250,8 +250,8 @@ ul {
 
   .post article .profile {
     float: none !important;      /* Kills the old wrapping behavior */
-    width: 220px;                /* Locks the picture column to a fixed width */
-    margin-left: 5rem !important; 
+    width: 170px;                /* Locks the picture column to a fixed width */
+    margin-left: 4rem !important; 
     flex-shrink: 0;              /* Prevents the picture from being squished */
   }
 
@@ -264,7 +264,7 @@ ul {
 @media (max-width: 767px) {
   /* 1. Remove the giant desktop margin and shrink the massive picture */
   .post article .profile {
-    width: 220px !important;              /* Keeps the picture a reasonable size */
+    width: 170px !important;              /* Keeps the picture a reasonable size */
     margin: 0 auto 2rem auto !important;  /* Centers it perfectly and adds space below */
     float: none !important;
     display: block !important;

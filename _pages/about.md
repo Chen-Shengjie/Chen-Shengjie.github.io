@@ -14,7 +14,7 @@ profile:
     HKUST</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -27,42 +27,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<section class="home-hero">
-  <p class="home-kicker">Incoming Ph.D. Student in Economics at HKUST</p>
-  <h2>Macroeconomics, monetary policy, and language models.</h2>
-  <p class="home-lead">
-    I am interested in how macroeconomic policy is communicated, interpreted, and measured, especially with tools from Natural Language Processing and Large Language Models.
-  </p>
-  <div class="home-actions">
-    <a class="home-button home-button-primary" href="{{ '/research/' | relative_url }}">Research</a>
-    <a class="home-button" href="{{ '/CV.pdf' | relative_url }}">CV</a>
-  </div>
-</section>
+Welcome to my personal homepage!
 
-<section class="home-focus-grid" aria-label="Research focus">
-  <div class="home-focus-card">
-    <span>01</span>
-    <strong>Macroeconomics</strong>
-    <p>Policy, aggregate dynamics, and the narratives that shape economic expectations.</p>
-  </div>
-  <div class="home-focus-card">
-    <span>02</span>
-    <strong>Monetary Policy</strong>
-    <p>Central bank communication, policy signals, and the transmission of information.</p>
-  </div>
-  <div class="home-focus-card">
-    <span>03</span>
-    <strong>NLP and LLMs</strong>
-    <p>Text-as-data methods for studying economic language, tone, and attention.</p>
-  </div>
-</section>
+I am an incoming Ph.D. student in Economics at the Hong Kong University of Science and Technology (HKUST), beginning in Fall 2026.
 
-### About
+### Education
+I received my M.Sc. in Economics from HKUST in 2026, and my bachelor's degree in Economics from the Southwestern University of Finance and Economics (SWUFE) in 2022.
 
-I will begin my Ph.D. in Economics at the Hong Kong University of Science and Technology (HKUST) in Fall 2026.
-
-Before that, I received my M.Sc. in Economics from HKUST in 2026 and my bachelor's degree in Economics from the Southwestern University of Finance and Economics (SWUFE) in 2022.
+### Research Interest
+My primary research interests lie at the intersection of macroeconomics, monetary policy, and the application of advanced Natural Language Processing (NLP) techniques, especially Large Language Models (LLMs).
 
 ### Contact
 
-You can reach me at `schengs [at] connect [dot] ust [dot] hk` or `chensj1125 [at] gmail [dot] com`.
+You can reach me via email:<br>
+schengs [at] connect [dot] ust [dot] hk<br>
+chensj1125 [at] gmail [dot] com
