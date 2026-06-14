@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: shengjie-chen.jpeg
+  image: shengjie-chen-profile.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p><strong>Shengjie Chen (陈圣杰)</strong><br>
@@ -35,7 +35,7 @@ I am an incoming Ph.D. student in Economics at the Hong Kong University of Scien
 I received my M.Sc. in Economics from HKUST in 2026, and my bachelor's degree in Economics from the Southwestern University of Finance and Economics (SWUFE) in 2022.
 
 ### Research Interest
-My primary research interests lie at the intersection of macroeconomics, monetary policy, and the application of advanced Natural Language Processing (NLP) techniques, especially Large Language Models (LLMs).
+My primary research interests lie at the intersection of macroeconomics, monetary economics, and the application of advanced Natural Language Processing (NLP) techniques, especially Large Language Models (LLMs).
 
 ### Contact
 
