@@ -99,6 +99,10 @@ body.full-width-page [role="main"] {
   align-items: center;
 }
 
+.site-masthead-home .site-masthead-overlay {
+  bottom: 3.2rem;
+}
+
 .site-masthead-name {
   display: inline-block;
   margin: 0;
@@ -114,6 +118,10 @@ body.full-width-page [role="main"] {
 
 .site-masthead-inner .site-masthead-name {
   font-size: 2.15rem;
+}
+
+.site-masthead-home .site-masthead-name {
+  font-size: 2.65rem;
 }
 
 .site-masthead-name:hover {
@@ -133,6 +141,10 @@ body.full-width-page [role="main"] {
 
 .site-masthead-inner .site-masthead-title {
   font-size: 0.95rem;
+}
+
+.site-masthead-home .site-masthead-title {
+  font-size: 1.05rem;
 }
 
 .site-masthead-caption {
